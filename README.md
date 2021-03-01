@@ -14,7 +14,7 @@ Contient :
 **********************************************************************************************************************************************************************
 CSS
 
-Contient grosso modo les fichiers HTML précédent stylisés :
+Contient grosso modo les fichiers HTML précédents stylisés :
 
 - Le site vitrine jarditou : homepage / produits / formulaire de contact avec un peu de style CSS et responsive (breakpoints)
 - Le site vitrine jarditou réalisé avec bootstrap
