@@ -1,6 +1,6 @@
 # AFPA_TBDA
 
-Dossier contenant la majeure partie du travail effectué du 21 Septembre au 13 Novembre 2020 dans la formation Rechniques de Bases du Développement d'Applications de l'AFPA.
+Dossier contenant la majeure partie du travail effectué du 21 Septembre au 13 Novembre 2020 dans la formation Techniques de Bases du Développement d'Applications de l'AFPA.
 
 **********************************************************************************************************************************************************************
 HTLM
