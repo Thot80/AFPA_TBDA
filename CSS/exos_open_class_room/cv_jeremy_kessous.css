@@ -1,0 +1,90 @@
+/* Téléchargement de police libre de droit sur www.fontsquirrel.com */
+/* @font-face permet d'appeler une police depuis un fichier source et de la charger dans le navigateur*/
+/* mettre plusieurs url(src/#.format) si plusieurs formats dispo*/
+@font-face
+{
+    font-family: "pacifico";
+    src: url(src/Pacifico.ttf);
+    
+}
+
+@font-face
+{
+font-family: "grand_hotel";
+    src: url(src/GrandHotel-Regular.otf);
+}
+
+/* Une alternative possible est de récupérer des liens vers des polices libres sur google fonts */
+
+body
+{
+    background: url(src/fond2.jpg) fixed;
+    font-size : 1em;
+}
+
+.portrait
+{
+    width: 5%;
+    height: auto;
+    float: left;
+    margin-right: 5px;
+}
+
+.contact
+{
+    padding-top: 32px;
+}
+
+.mailto:hover, li:hover
+{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+h1
+{
+    font-size: 3em;
+    font-family: "grand_hotel", 'Times New Roman', Times, serif; 
+}
+
+.stop
+{
+    clear: both;
+}
+
+.corps
+{
+    padding-top: 50px;
+}
+
+h2
+{
+    font-family:  "grand_hotel", 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+
+ul
+{
+    font-family: "pacifico", 'Times New Roman', Times, serif;
+}
+
+/* Couleur générée sur colorpicker.com, donne une valeur en héxadécimal à mettre dans le css */
+/* color picker existe en module firefox pour récurer n'importe quelle couleure qui plait sur le web*/
+
+.date
+{
+    color: #e4a527;
+}
+
+/* Couleur réglée sur paint, valeur rgb récupe sur paint aussi*/
+
+.location
+{
+    color: rgb(9,189,139);
+}
+
+.competence
+{
+    border : 5px solid burlywood;
+    box-shadow: 5px blanchedalmond;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les Médias</title>
+</head>
+<body>
+  <h1 style="text-align:center">
+Les Médias
+  </h1>  
+
+  <p>
+      Une page HTML peut afficher différents types de médias :
+
+      <ul>
+          <li>Images</li>
+          <li>Vidéos</li>
+          <li>Audios</li>
+          <li>Animations</li>
+      </ul>
+  </p>
+
+  <h2>
+      Les Images
+  </h2>
+  <p>
+     L'affichage d'une image se fait à l'aide de la balise <b>Image</b>, <code>&lt;img&gt;</code>, pour la doc
+     <a href="https://www.w3schools.com/tags/tag_img.asp" title="W3S">suivez le lien !</a> <br>
+     Cette balise possède de nombreux attributs, 3 sont fortements recommandés pour un usage basique, il s'agit de :
+
+    <ul>
+        <li><code>&lt;src&gt;</code>, pour <b>Source</b></li>
+        <li><code>&lt;alt&gt;</code>, pour <b>Alternative</b> 
+            <ul style="list-style-type:square;">
+                <li>permet d'afficher un texte de remplacement si l'image ne charge pas</li>
+                <li>fournit une légende à l'image lorsqu'on passe la souri dessus</li>
+            </ul> 
+        </li>
+        <li><code>&lt;title&gt;</code>, pour <b>Titre</b>, permet d'attribuer un titre à votre image et sert le référencement
+        </li>
+    </ul>
+    </p>
+
+    <h2>
+        Les vidéos
+    </h2>
+
+    <p>
+        L'affichage d'une vidéo se fait à l'aide de la balise <b>Video</b>, <code>&lt;video&gt;</code>, pour la doc
+        <a href="https://www.w3schools.com/tags/tag_video.asp" title="W3S">suivez le lien !</a> <br> 
+    
+        Seuls les 3 formats suivants sont reconnus par les navigateurs : 
+        
+        <ul>
+            <li>mp4</li>
+            <li>webm</li>
+            <li>ogg</li>
+        </ul>
+    <br>
+    Certains navigateurs ne peuvent lire qu'un seul des formats de video précédemment sité,
+    il faut donc indiquer 3 fichiers sources à chaque fois que l'on veut intégrer une vidéo.
+
+    <br>
+
+    Il est souvent plus simple d'intégrer une vidéo via youtube et une balise <code>&lt;iframe&gt;</code>.<br>
+
+    Youtube génère un code HTML qu'il est possible d'intégrer dans son propre code via la balise 
+    <code>&lt;iframe&gt;</code> (permet aussi d'intégrer des pops-up).
+    </p>
+
+</body>
+</html>

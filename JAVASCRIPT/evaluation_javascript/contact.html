@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+    crossorigin="anonymous">
+    <title>Contact</title>
+
+</head>
+<body>
+
+<div class="container-fluid">
+
+  <!-- Logo + Slogan -->
+    <div class="row">
+        <div class="col-8 d-none d-lg-block">
+            <img src="src/img/images/jarditou_logo.jpg"  class="img-fluid w-25 ml-2" alt="Logo Jarditou">
+        </div>
+        <div class="col-4 h1 d-none d-lg-block text-right">Tout le jardin</div>
+    </div>
+
+
+    <!-- Barre de navigation responsive, collapse dans un bouton pour taille d'écran inférieure à 960px (lg) -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mx-3"> 
+        <a class="navbar-brand" href="index.html">Jarditou.com</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+        aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tableau.html">Tableau</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Votre promotion" aria-label="Votre promotion">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher</button>
+          </form>
+        </div>
+      </nav>
+
+
+      <!-- Banière -->
+    <div class="col-12">
+        <img src="src/img/images/promotion.jpg" class="img-fluid w-100" alt="Promotion sur les lames de terrasse">
+    </div>
+
+    <!-- Formulaire de contact / Validation côté client en Javascript -->
+
+    <form action="http://bienvu.net/script.php" method="POST" enctype="multipart/form-data" class="my-3 mx-3">
+        
+        *Ces zones sont obligatoires <br>
+        <h1>
+            Vos Coordonnées
+        </h1> 
+        <div class="form-group">
+          <label for="Nom">Nom*</label>
+          <input type="text" class="form-control" name="Nom" id="Nom" required>
+          <br><span id="miss_nom"></span>
+        </div>
+        <div class="form-group">
+          <label for="Prénom">Prénom*</label>
+          <input type="text" class="form-control" name="Prénom" id="Prénom" required>
+          <br><span id="miss_prenom"></span>
+        </div>
+        Sexe* <br>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Sexe" id="Féminin" value="Féminin" required>
+            <label class="form-check-label" for="Féminin">
+              Féminin
+            </label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Sexe" id="Masculin" value="Masculin" required>
+            <label class="form-check-label" for="Masculin">
+              Masculin
+            </label>
+        </div>
+        <br><span id="miss_sexe"></span>
+        <div class="form-group">
+            <label for="Date">Date de naissance*</label>
+            <input type="date" class="form-control" name="Date" id="Date" required>
+            <br><span id="miss_date"></span>
+        </div>
+        
+        <div class="form-group">
+            <label for="cp">Code postal*</label>
+            <input type="text" class="form-control" name="cp" id="cp" required>
+            <br><span id="miss_cp"></span>
+        </div>
+        <div class="form-group">
+            <label for="Adresse">Adresse</label>
+            <input type="text" class="form-control" name="Adresse" id="Adresse">
+        </div>
+        <div class="form-group">
+            <label for="Ville">Ville</label>
+            <input type="text" class="form-control" name="Ville"  id="Ville">
+        </div>
+        <div class="form-group">
+            <label for="email">Email*</label>
+            <input type="email" class="form-control" name="email" id="email" required>
+            <br><span id="miss_email"></span>
+        </div>
+        <h1>
+            Votre Demande
+        </h1> 
+        <div class="form-group">
+            <label class="mr-sm-2" for="Sujet">Sujet</label>
+            <select class="custom-select mr-sm-2" name="Sujet" id="Sujet">
+            <option selected disabled>Veuillez sélectionner un sujet</option>
+            <option value="Mes commandes">Mes commandes</option>
+            <option value="Question sur un produit">Question sur un produit</option>
+            <option value="Réclamation">Réclamation</option>
+            <option value="Autre">Autre</option>
+            </select>
+        </div>  
+        <div class="form-group">
+            <label for="Votrequestion">Votre question*</label>
+            <textarea class="form-control" name="Question" id="Votrequestion" rows="3" required></textarea>
+            <br><span id="miss_question"></span>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" name="Autorisation" id="autorisation" value="Donnée" required>
+            <label class="form-check-label" for="autorisation">J'accepte le traitement informatique de ce formulaire</label>
+          </div>
+          <span id="miss_autorisation"></span>
+        
+          <br>
+
+          <button class="btn btn-dark" type="submit" id="envoyer">Envoyer</button>
+          <button class="btn btn-dark" type="reset" id="annuler">Annuler</button>
+    
+    </form>
+    
+
+
+    <!-- Footer, nous avons choisi de ne jamais le faire collapser -->
+    <nav class="navbar navbar-expand navbar-dark bg-dark mx-3">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+            <a class="nav-link" href="#">Mentions légales<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Horaires</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link disabled" href="#">Plan du site</a>
+            </li>
+        </ul>
+    </nav>
+
+</div>
+
+<!-- Script maison pour le contrôle côté client du formulaire -->
+  <script src="js/exercice5.js"></script>
+
+<!-- Script Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+     crossorigin="anonymous"></script>
+
+</body>
+</html>

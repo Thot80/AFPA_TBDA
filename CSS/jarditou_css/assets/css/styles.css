@@ -1,0 +1,54 @@
+
+.logo
+{
+    float: left;
+}
+.slogan
+{
+    text-align: center;
+    height : 100px;
+    font-size: 2em;
+
+}
+.header-nav, .header-nav > a
+{
+    clear: both;
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+.promo > img
+{
+    width: 100%;
+    height: auto;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.colonne-gauche
+{
+    float: left;
+    width: 57%;
+    height: auto;
+}
+
+.colonne-droite
+{
+   float: right;
+    background-color: gray;
+    width: 40%;
+    height: auto;
+    margin: 5px;
+}
+.footer-nav, .footer-nav > a
+{
+    clear: both;
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+

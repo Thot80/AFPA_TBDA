@@ -1,0 +1,35 @@
+h1
+{
+    color: red;
+    font-size: 3em;
+}
+
+ul
+{
+    border: 5px solid burlywood;
+    box-shadow: 10px 10px beige;
+}
+
+/* figure, figcaption
+{
+    text-align: center;
+} 
+figure l'une en dessous de l'autre au centre de la page + légende centrée par rapport à la figure
+*/
+
+.ligne
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+figcaption
+{
+    text-align: center;
+}
+
+a:hover 
+{
+  font-weight: bold;
+}
