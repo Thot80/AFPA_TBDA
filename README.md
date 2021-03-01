@@ -33,7 +33,7 @@ Contient :
 
 - Des exercices tirés du cours d'algorithmique, juste les algos mis en code
 - Des exercices du cours de l'afpa
-- Le formulaire de contact du site jarditou avec vérification de la saisie utilisateur
+- La validation côté client du formulaire de contact du site vitrine jarditou 
 
 **********************************************************************************************************************************************************************
 SQL
@@ -50,3 +50,7 @@ Contient :
 PHP
 
 Contient :
+
+- Des exercices autours des bases de PHP (exercices)
+- La validation côté serveur du formulaire de contact du site vitrine jarditou (TODO Harmoniser les noms de variables pouir rendre compatible avec la validation côté         client en javaScript)
+- L'évaluation PHP (dans eval_jarditou/atelier4), faire une interface de backoffice qui permet de réaliser le CRUD sur le site de jarditou
