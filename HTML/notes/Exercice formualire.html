@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice Formulaire</title>
+</head>
+<body>
+
+&#42; Ces zones sont obligatoires <br>
+<fieldset>
+    <legend>Vos coordonnées</legend>
+    Votre nom&#42;:<input type="text" name="nom"><br>
+    Votre prénom&#42;:<input type="text" name="prénom"><br>
+    <br>
+    Sexe&#42; : 
+    
+    <input type="radio" name="sexe" value="Féminin"> Féminin 
+    <input type="radio" name="sexe" value="Masculin"> Masculin 
+
+<br>
+<br>
+
+    Date de naissance&#42; : <input type="date" name="ddn"> <br>
+    Code postal&#42; : <input type=text name="cp"> <br>
+    Adresse :<input type="text" name="adresse"><br>
+    Ville:<input type="text" name="Ville"><br>
+    E-mail&#42; : <input type="email" name="email" value="dave.loper@afpa.fr">
+
+   </fieldset>
+    
+    <fieldset>
+        <legend>Votre demande</legend>
+    
+        Sujet&#42;: <select name="sujet">
+                    <option value="Veuillez sélectionner un sujet" selected>Veuillez sélectionner un sujet</option>
+                    <option>Mes commandes</option>
+                    <option>Question sur un produit</option>
+                    <option>Réclamation</option>
+                    <option>Autres</option>
+                </select> 
+            
+        <br>
+        <br>
+        Votre question* : <textarea name="question" rows="1" cols="17"></textarea> <br>
+    </fieldset>
+    <br>
+    <form>
+        <input type="checkbox" name="autorisation" value="choix" > * J'accepte le traitement informatique de ce formulaire 
+    </form>
+    
+    <br>
+
+    <form>
+        <button type="submit">Envoyer</button>
+        <button type="submit">Annuler</button>
+    </form>
+
+
+</body>
+</html>

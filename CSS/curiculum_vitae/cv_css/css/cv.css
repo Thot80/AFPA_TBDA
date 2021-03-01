@@ -1,0 +1,43 @@
+h1
+{
+    color : green;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.photo
+{
+    margin-right: 10px;
+
+}
+
+/* .test
+{
+    margin-top: 15px;
+    width: 103px;
+    height: 129px;
+    background-image: url(../src/images/carte.GIF);
+    opacity: 0.3;  
+}
+
+.adress
+{
+    padding-top: 7px;
+   
+} */
+
+
+.adress
+{
+    
+    margin-top: 15px;
+    width: 103px;
+    height: 129px;
+    background-image: url(../src/images/carte.GIF);
+    
+}

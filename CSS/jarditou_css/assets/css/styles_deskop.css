@@ -1,0 +1,117 @@
+/* fixe la taille de la police du doc html comme racine à 100% */
+html
+{
+    font-size: 100%;
+}
+
+/* Logo jarditou en haut à gauche + fixe une taille relative + flotte pour que du texte aille à coté */
+.logo > img
+{
+    float: left;
+    width: 15%;
+    height: auto;
+}
+
+/* Placé au centre et 1 taille responsive de 2 em */
+.slogan
+{
+    text-align: center;
+    font-size: 2em;
+}
+
+/* Fond noir, arré du flottant logo, marge interrieure pour faire une bande */
+.header-nav > ul
+{
+    background-color: black;
+    clear: both;
+    padding: 1%;
+}
+
+/* Met les éléments de la liste en ligne et n'affiche pas les puces (ceux du footer également) */
+.menu
+{
+    display: inline;
+    list-style: none;
+}
+
+/* Met les liens hypertexte en blancs (ceux du footer également) */
+.menu >a
+{
+    color: white;  
+}
+
+/* met l'image sur toute la largeur, adapte la hauteur à la largeur */
+.promo > img
+{
+    width: 100%;
+    height: auto;
+}
+
+/* Fixe la taille des titre à 2 em */
+h1
+{
+    font-size: 2em;
+}
+
+/*Fixe la taille des lettres à 1 em dans les paragraphe */
+p
+{
+    font-size: 1em;
+}
+
+form
+{
+    font-size: 1em;
+}
+
+table
+{
+    font-size: 1em;
+}
+/* Créer un containeur de blocs, les rend flex (ni inbloc ni inline) et les met en ligne */
+.container
+{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Bloc de texte, flotte à gauche, def un % de largeur et une hauteur relative à cette largeur */
+.colonne-gauche
+{
+    float: left;
+    width: 57%;
+    height: auto;
+}
+
+/* Bloc vierge, flotte à droite, def un % de largeur et une hauteur relative à cette largeur, petite marge exterrieure */ 
+.colonne-droite
+{
+   float: right;
+    background-color: gray;
+    width: 40%;
+    height: auto;
+    margin: 1%;
+}
+
+/* Fond noir, arré du flottant logo, marge interrieure pour faire une bande */
+.footer-nav > ul
+{
+    background-color: black;
+    clear: both;
+    padding: 1%;
+   
+}
+
+
+/*
+.footer-nav, .footer-nav > a
+{
+    clear: both;
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+
+J'obtient le même résultat avec ce code, pourquoi conserver les balises <ul> alors que ça complique le code ?
+
+*/
