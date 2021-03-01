@@ -52,5 +52,5 @@ PHP
 Contient :
 
 - Des exercices autours des bases de PHP (exercices)
-- La validation côté serveur du formulaire de contact du site vitrine jarditou (TODO Harmoniser les noms de variables pouir rendre compatible avec la validation côté         client en javaScript)
-- L'évaluation PHP (dans eval_jarditou/atelier4), faire une interface de backoffice qui permet de réaliser le CRUD sur le site de jarditou
+- La validation côté serveur du formulaire de contact du site vitrine jarditou (TODO Harmoniser les noms de variables pour rendre compatible avec la validation côté         client en javaScript)
+- L'évaluation PHP (dans eval_jarditou/atelier4), création d'une interface de backoffice qui permet de réaliser le CRUD sur le site de jarditou (TODO Fusionner validation javascript + validation php)
